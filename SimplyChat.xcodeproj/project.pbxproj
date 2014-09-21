@@ -193,7 +193,7 @@
 				262F965219CD3C8B0000D886 /* User.h */,
 				262F965319CD3C8B0000D886 /* User.m */,
 			);
-			name = Storage;
+			path = Storage;
 			sourceTree = "<group>";
 		};
 		262F965919CD40B30000D886 /* Views */ = {
@@ -226,7 +226,7 @@
 				262FA14819CE21D20000D886 /* NavigationBar.h */,
 				262FA14919CE21D20000D886 /* NavigationBar.m */,
 			);
-			name = Messenger;
+			path = Messenger;
 			sourceTree = "<group>";
 		};
 		268A9C8C19CE527C00A0854C /* Launch */ = {
@@ -241,7 +241,7 @@
 				262F965D19CD45DB0000D886 /* LaunchView.h */,
 				262F965E19CD45DB0000D886 /* LaunchView.m */,
 			);
-			name = Launch;
+			path = Launch;
 			sourceTree = "<group>";
 		};
 		268A9C8D19CE52A000A0854C /* Onboarding */ = {
@@ -262,7 +262,7 @@
 				262FA13D19CDF6D90000D886 /* AddSocialView.h */,
 				262FA13E19CDF6D90000D886 /* AddSocialView.m */,
 			);
-			name = Onboarding;
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
