@@ -199,29 +199,9 @@
 		262F965919CD40B30000D886 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				268A9C8D19CE52A000A0854C /* Onboarding */,
+				268A9C8C19CE527C00A0854C /* Launch */,
 				262FA14419CE1BAA0000D886 /* Messenger */,
-				262F962019CD33CA0000D886 /* ViewController.h */,
-				262F962119CD33CA0000D886 /* ViewController.m */,
-				262F965D19CD45DB0000D886 /* LaunchView.h */,
-				262F965E19CD45DB0000D886 /* LaunchView.m */,
-				262F965A19CD45680000D886 /* WelcomeViewController.h */,
-				262F965B19CD45680000D886 /* WelcomeViewController.m */,
-				262F967419CD598C0000D886 /* WelcomeView.h */,
-				262F967519CD598D0000D886 /* WelcomeView.m */,
-				262F968419CD6F9A0000D886 /* RegisterViewController.h */,
-				262F968519CD6F9A0000D886 /* RegisterViewController.m */,
-				262F968719CD6FCB0000D886 /* RegisterView.h */,
-				262F968819CD6FCB0000D886 /* RegisterView.m */,
-				262F968A19CD700B0000D886 /* RegisterCell.h */,
-				262F968B19CD700B0000D886 /* RegisterCell.m */,
-				262FA12D19CDEEF20000D886 /* SocialRegisterViewController.h */,
-				262FA12E19CDEEF20000D886 /* SocialRegisterViewController.m */,
-				262FA13019CDEF050000D886 /* SocialRegisterView.h */,
-				262FA13119CDEF050000D886 /* SocialRegisterView.m */,
-				262FA13A19CDF3D70000D886 /* AddSocialViewController.h */,
-				262FA13B19CDF3D70000D886 /* AddSocialViewController.m */,
-				262FA13D19CDF6D90000D886 /* AddSocialView.h */,
-				262FA13E19CDF6D90000D886 /* AddSocialView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -247,6 +227,42 @@
 				262FA14919CE21D20000D886 /* NavigationBar.m */,
 			);
 			name = Messenger;
+			sourceTree = "<group>";
+		};
+		268A9C8C19CE527C00A0854C /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				262F965A19CD45680000D886 /* WelcomeViewController.h */,
+				262F965B19CD45680000D886 /* WelcomeViewController.m */,
+				262F967419CD598C0000D886 /* WelcomeView.h */,
+				262F967519CD598D0000D886 /* WelcomeView.m */,
+				262F962019CD33CA0000D886 /* ViewController.h */,
+				262F962119CD33CA0000D886 /* ViewController.m */,
+				262F965D19CD45DB0000D886 /* LaunchView.h */,
+				262F965E19CD45DB0000D886 /* LaunchView.m */,
+			);
+			name = Launch;
+			sourceTree = "<group>";
+		};
+		268A9C8D19CE52A000A0854C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				262F968419CD6F9A0000D886 /* RegisterViewController.h */,
+				262F968519CD6F9A0000D886 /* RegisterViewController.m */,
+				262F968719CD6FCB0000D886 /* RegisterView.h */,
+				262F968819CD6FCB0000D886 /* RegisterView.m */,
+				262F968A19CD700B0000D886 /* RegisterCell.h */,
+				262F968B19CD700B0000D886 /* RegisterCell.m */,
+				262FA12D19CDEEF20000D886 /* SocialRegisterViewController.h */,
+				262FA12E19CDEEF20000D886 /* SocialRegisterViewController.m */,
+				262FA13019CDEF050000D886 /* SocialRegisterView.h */,
+				262FA13119CDEF050000D886 /* SocialRegisterView.m */,
+				262FA13A19CDF3D70000D886 /* AddSocialViewController.h */,
+				262FA13B19CDF3D70000D886 /* AddSocialViewController.m */,
+				262FA13D19CDF6D90000D886 /* AddSocialView.h */,
+				262FA13E19CDF6D90000D886 /* AddSocialView.m */,
+			);
+			name = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -575,6 +591,7 @@
 				262F963B19CD33CA0000D886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		262F963C19CD33CA0000D886 /* Build configuration list for PBXNativeTarget "SimplyChatTests" */ = {
 			isa = XCConfigurationList;
@@ -583,6 +600,7 @@
 				262F963E19CD33CA0000D886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
