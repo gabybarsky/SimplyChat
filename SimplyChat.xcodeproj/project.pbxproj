@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		262F961C19CD33CA0000D886 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F961B19CD33CA0000D886 /* main.m */; };
-		262F961F19CD33CA0000D886 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F961E19CD33CA0000D886 /* AppDelegate.m */; };
-		262F962219CD33CA0000D886 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F962119CD33CA0000D886 /* ViewController.m */; };
-		262F962519CD33CA0000D886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262F962319CD33CA0000D886 /* Main.storyboard */; };
-		262F962719CD33CA0000D886 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262F962619CD33CA0000D886 /* Images.xcassets */; };
-		262F962A19CD33CA0000D886 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262F962819CD33CA0000D886 /* LaunchScreen.xib */; };
 		262F963619CD33CA0000D886 /* SimplyChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F963519CD33CA0000D886 /* SimplyChatTests.m */; };
+		262F9DAC19CD97F80000D886 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F962119CD33CA0000D886 /* ViewController.m */; };
+		262F9DAE19CD97F80000D886 /* LaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F965E19CD45DB0000D886 /* LaunchView.m */; };
+		262F9DB019CD97F80000D886 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F965B19CD45680000D886 /* WelcomeViewController.m */; };
+		262F9DB219CD97F80000D886 /* WelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F967519CD598D0000D886 /* WelcomeView.m */; };
+		262F9DB419CD97F80000D886 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F968519CD6F9A0000D886 /* RegisterViewController.m */; };
+		262F9DB619CD97F80000D886 /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F968819CD6FCB0000D886 /* RegisterView.m */; };
+		262F9DB819CD97F80000D886 /* RegisterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F968B19CD700B0000D886 /* RegisterCell.m */; };
+		262F9DB919CD98140000D886 /* DictionarySerializable.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F965619CD3EBC0000D886 /* DictionarySerializable.m */; };
+		262F9DBA19CD982B0000D886 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F965019CD3C7B0000D886 /* UserManager.m */; };
+		262F9DBB19CD982D0000D886 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F965319CD3C8B0000D886 /* User.m */; };
+		262F9DBC19CD98300000D886 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F964D19CD347D0000D886 /* RootViewController.m */; };
+		262F9DBD19CD98330000D886 /* NoAnimationSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F968219CD6E0D0000D886 /* NoAnimationSegue.m */; };
+		262F9DBE19CD98350000D886 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F961E19CD33CA0000D886 /* AppDelegate.m */; };
+		262F9DBF19CD983B0000D886 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262F962619CD33CA0000D886 /* Images.xcassets */; };
+		262F9DC019CD98410000D886 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 262F961A19CD33CA0000D886 /* Info.plist */; };
+		262F9DC119CD98440000D886 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F961B19CD33CA0000D886 /* main.m */; };
+		262FA12F19CDEEF20000D886 /* SocialRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262FA12E19CDEEF20000D886 /* SocialRegisterViewController.m */; };
+		262FA13219CDEF050000D886 /* SocialRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 262FA13119CDEF050000D886 /* SocialRegisterView.m */; };
+		262FA13719CDF1A10000D886 /* Facebook_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 262FA13419CDF1A10000D886 /* Facebook_Logo.png */; };
+		262FA13819CDF1A10000D886 /* Hangouts.png in Resources */ = {isa = PBXBuildFile; fileRef = 262FA13519CDF1A10000D886 /* Hangouts.png */; };
+		262FA13919CDF1A10000D886 /* skype_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 262FA13619CDF1A10000D886 /* skype_logo.png */; };
+		262FA13C19CDF3D70000D886 /* AddSocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262FA13B19CDF3D70000D886 /* AddSocialViewController.m */; };
+		262FA13F19CDF6D90000D886 /* AddSocialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 262FA13E19CDF6D90000D886 /* AddSocialView.m */; };
+		262FA14219CE1B910000D886 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262FA14119CE1B910000D886 /* MessageViewController.m */; };
+		262FA14719CE1BBE0000D886 /* MessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 262FA14619CE1BBE0000D886 /* MessageView.m */; };
+		262FA14A19CE21D20000D886 /* NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 262FA14919CE21D20000D886 /* NavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +60,45 @@
 		262F962F19CD33CA0000D886 /* SimplyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		262F963419CD33CA0000D886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		262F963519CD33CA0000D886 /* SimplyChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplyChatTests.m; sourceTree = "<group>"; };
+		262F964C19CD347D0000D886 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		262F964D19CD347D0000D886 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		262F964F19CD3C7B0000D886 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		262F965019CD3C7B0000D886 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		262F965219CD3C8B0000D886 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		262F965319CD3C8B0000D886 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		262F965519CD3EBC0000D886 /* DictionarySerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionarySerializable.h; sourceTree = "<group>"; };
+		262F965619CD3EBC0000D886 /* DictionarySerializable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionarySerializable.m; sourceTree = "<group>"; };
+		262F965A19CD45680000D886 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		262F965B19CD45680000D886 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		262F965D19CD45DB0000D886 /* LaunchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchView.h; sourceTree = "<group>"; };
+		262F965E19CD45DB0000D886 /* LaunchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchView.m; sourceTree = "<group>"; };
+		262F967419CD598C0000D886 /* WelcomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeView.h; sourceTree = "<group>"; };
+		262F967519CD598D0000D886 /* WelcomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeView.m; sourceTree = "<group>"; };
+		262F968119CD6E0D0000D886 /* NoAnimationSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoAnimationSegue.h; sourceTree = "<group>"; };
+		262F968219CD6E0D0000D886 /* NoAnimationSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoAnimationSegue.m; sourceTree = "<group>"; };
+		262F968419CD6F9A0000D886 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		262F968519CD6F9A0000D886 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		262F968719CD6FCB0000D886 /* RegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterView.h; sourceTree = "<group>"; };
+		262F968819CD6FCB0000D886 /* RegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterView.m; sourceTree = "<group>"; };
+		262F968A19CD700B0000D886 /* RegisterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterCell.h; sourceTree = "<group>"; };
+		262F968B19CD700B0000D886 /* RegisterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterCell.m; sourceTree = "<group>"; };
+		262FA12D19CDEEF20000D886 /* SocialRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialRegisterViewController.h; sourceTree = "<group>"; };
+		262FA12E19CDEEF20000D886 /* SocialRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialRegisterViewController.m; sourceTree = "<group>"; };
+		262FA13019CDEF050000D886 /* SocialRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialRegisterView.h; sourceTree = "<group>"; };
+		262FA13119CDEF050000D886 /* SocialRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialRegisterView.m; sourceTree = "<group>"; };
+		262FA13419CDF1A10000D886 /* Facebook_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Facebook_Logo.png; path = Resources/Facebook_Logo.png; sourceTree = "<group>"; };
+		262FA13519CDF1A10000D886 /* Hangouts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hangouts.png; path = Resources/Hangouts.png; sourceTree = "<group>"; };
+		262FA13619CDF1A10000D886 /* skype_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = skype_logo.png; path = Resources/skype_logo.png; sourceTree = "<group>"; };
+		262FA13A19CDF3D70000D886 /* AddSocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSocialViewController.h; sourceTree = "<group>"; };
+		262FA13B19CDF3D70000D886 /* AddSocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSocialViewController.m; sourceTree = "<group>"; };
+		262FA13D19CDF6D90000D886 /* AddSocialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSocialView.h; sourceTree = "<group>"; };
+		262FA13E19CDF6D90000D886 /* AddSocialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSocialView.m; sourceTree = "<group>"; };
+		262FA14019CE1B910000D886 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		262FA14119CE1B910000D886 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		262FA14519CE1BBE0000D886 /* MessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageView.h; sourceTree = "<group>"; };
+		262FA14619CE1BBE0000D886 /* MessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageView.m; sourceTree = "<group>"; };
+		262FA14819CE21D20000D886 /* NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBar.h; sourceTree = "<group>"; };
+		262FA14919CE21D20000D886 /* NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +125,7 @@
 				262F961819CD33CA0000D886 /* SimplyChat */,
 				262F963219CD33CA0000D886 /* SimplyChatTests */,
 				262F961719CD33CA0000D886 /* Products */,
+				262FA13319CDEFCA0000D886 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +141,14 @@
 		262F961819CD33CA0000D886 /* SimplyChat */ = {
 			isa = PBXGroup;
 			children = (
+				262F965919CD40B30000D886 /* Views */,
+				262F965819CD3FF60000D886 /* Storage */,
+				262F964C19CD347D0000D886 /* RootViewController.h */,
+				262F964D19CD347D0000D886 /* RootViewController.m */,
+				262F968119CD6E0D0000D886 /* NoAnimationSegue.h */,
+				262F968219CD6E0D0000D886 /* NoAnimationSegue.m */,
 				262F961D19CD33CA0000D886 /* AppDelegate.h */,
 				262F961E19CD33CA0000D886 /* AppDelegate.m */,
-				262F962019CD33CA0000D886 /* ViewController.h */,
-				262F962119CD33CA0000D886 /* ViewController.m */,
 				262F962319CD33CA0000D886 /* Main.storyboard */,
 				262F962619CD33CA0000D886 /* Images.xcassets */,
 				262F962819CD33CA0000D886 /* LaunchScreen.xib */,
@@ -117,6 +181,72 @@
 				262F963419CD33CA0000D886 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		262F965819CD3FF60000D886 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				262F965519CD3EBC0000D886 /* DictionarySerializable.h */,
+				262F965619CD3EBC0000D886 /* DictionarySerializable.m */,
+				262F964F19CD3C7B0000D886 /* UserManager.h */,
+				262F965019CD3C7B0000D886 /* UserManager.m */,
+				262F965219CD3C8B0000D886 /* User.h */,
+				262F965319CD3C8B0000D886 /* User.m */,
+			);
+			name = Storage;
+			sourceTree = "<group>";
+		};
+		262F965919CD40B30000D886 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				262FA14419CE1BAA0000D886 /* Messenger */,
+				262F962019CD33CA0000D886 /* ViewController.h */,
+				262F962119CD33CA0000D886 /* ViewController.m */,
+				262F965D19CD45DB0000D886 /* LaunchView.h */,
+				262F965E19CD45DB0000D886 /* LaunchView.m */,
+				262F965A19CD45680000D886 /* WelcomeViewController.h */,
+				262F965B19CD45680000D886 /* WelcomeViewController.m */,
+				262F967419CD598C0000D886 /* WelcomeView.h */,
+				262F967519CD598D0000D886 /* WelcomeView.m */,
+				262F968419CD6F9A0000D886 /* RegisterViewController.h */,
+				262F968519CD6F9A0000D886 /* RegisterViewController.m */,
+				262F968719CD6FCB0000D886 /* RegisterView.h */,
+				262F968819CD6FCB0000D886 /* RegisterView.m */,
+				262F968A19CD700B0000D886 /* RegisterCell.h */,
+				262F968B19CD700B0000D886 /* RegisterCell.m */,
+				262FA12D19CDEEF20000D886 /* SocialRegisterViewController.h */,
+				262FA12E19CDEEF20000D886 /* SocialRegisterViewController.m */,
+				262FA13019CDEF050000D886 /* SocialRegisterView.h */,
+				262FA13119CDEF050000D886 /* SocialRegisterView.m */,
+				262FA13A19CDF3D70000D886 /* AddSocialViewController.h */,
+				262FA13B19CDF3D70000D886 /* AddSocialViewController.m */,
+				262FA13D19CDF6D90000D886 /* AddSocialView.h */,
+				262FA13E19CDF6D90000D886 /* AddSocialView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		262FA13319CDEFCA0000D886 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				262FA13419CDF1A10000D886 /* Facebook_Logo.png */,
+				262FA13519CDF1A10000D886 /* Hangouts.png */,
+				262FA13619CDF1A10000D886 /* skype_logo.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		262FA14419CE1BAA0000D886 /* Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				262FA14019CE1B910000D886 /* MessageViewController.h */,
+				262FA14119CE1B910000D886 /* MessageViewController.m */,
+				262FA14519CE1BBE0000D886 /* MessageView.h */,
+				262FA14619CE1BBE0000D886 /* MessageView.m */,
+				262FA14819CE21D20000D886 /* NavigationBar.h */,
+				262FA14919CE21D20000D886 /* NavigationBar.m */,
+			);
+			name = Messenger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +312,7 @@
 			knownRegions = (
 				en,
 				Base,
+				he,
 			);
 			mainGroup = 262F960D19CD33CA0000D886;
 			productRefGroup = 262F961719CD33CA0000D886 /* Products */;
@@ -199,9 +330,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				262F962519CD33CA0000D886 /* Main.storyboard in Resources */,
-				262F962A19CD33CA0000D886 /* LaunchScreen.xib in Resources */,
-				262F962719CD33CA0000D886 /* Images.xcassets in Resources */,
+				262FA13919CDF1A10000D886 /* skype_logo.png in Resources */,
+				262FA13819CDF1A10000D886 /* Hangouts.png in Resources */,
+				262F9DC019CD98410000D886 /* Info.plist in Resources */,
+				262F9DBF19CD983B0000D886 /* Images.xcassets in Resources */,
+				262FA13719CDF1A10000D886 /* Facebook_Logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +352,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				262F962219CD33CA0000D886 /* ViewController.m in Sources */,
-				262F961F19CD33CA0000D886 /* AppDelegate.m in Sources */,
-				262F961C19CD33CA0000D886 /* main.m in Sources */,
+				262F9DBB19CD982D0000D886 /* User.m in Sources */,
+				262FA14A19CE21D20000D886 /* NavigationBar.m in Sources */,
+				262F9DB919CD98140000D886 /* DictionarySerializable.m in Sources */,
+				262F9DBA19CD982B0000D886 /* UserManager.m in Sources */,
+				262F9DAC19CD97F80000D886 /* ViewController.m in Sources */,
+				262F9DAE19CD97F80000D886 /* LaunchView.m in Sources */,
+				262F9DB019CD97F80000D886 /* WelcomeViewController.m in Sources */,
+				262FA12F19CDEEF20000D886 /* SocialRegisterViewController.m in Sources */,
+				262FA13F19CDF6D90000D886 /* AddSocialView.m in Sources */,
+				262F9DB219CD97F80000D886 /* WelcomeView.m in Sources */,
+				262F9DBE19CD98350000D886 /* AppDelegate.m in Sources */,
+				262FA14219CE1B910000D886 /* MessageViewController.m in Sources */,
+				262F9DBD19CD98330000D886 /* NoAnimationSegue.m in Sources */,
+				262FA13C19CDF3D70000D886 /* AddSocialViewController.m in Sources */,
+				262FA13219CDEF050000D886 /* SocialRegisterView.m in Sources */,
+				262F9DBC19CD98300000D886 /* RootViewController.m in Sources */,
+				262F9DB419CD97F80000D886 /* RegisterViewController.m in Sources */,
+				262FA14719CE1BBE0000D886 /* MessageView.m in Sources */,
+				262F9DB619CD97F80000D886 /* RegisterView.m in Sources */,
+				262F9DC119CD98440000D886 /* main.m in Sources */,
+				262F9DB819CD97F80000D886 /* RegisterCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +496,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/gabrielbarsky/Documents/FacebookSDK,
+					/Users/gabrielbarsky/Documents/FacebookSDK/FBAudienceNetwork,
+				);
 				INFOPLIST_FILE = SimplyChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +511,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/gabrielbarsky/Documents/FacebookSDK,
+					/Users/gabrielbarsky/Documents/FacebookSDK/FBAudienceNetwork,
+				);
 				INFOPLIST_FILE = SimplyChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
